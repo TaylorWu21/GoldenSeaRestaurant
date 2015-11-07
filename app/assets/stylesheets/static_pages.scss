@@ -1,0 +1,56 @@
+.slider {
+  max-height: 532px !important;
+}
+.overlay-text {
+  z-index: 3;
+  position: relative;
+}
+.slider .indicators {
+  z-index: 3;
+  bottom: 60px !important;
+}
+.slider .indicators .indicator-item {
+  background-color: rgba(255,255,255,0.5) !important;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff !important;
+}
+.center {
+  margin: 0 auto;
+}
+.main-header {
+  background-color: #2E2E2E;
+  padding-top: 20px;
+  padding-bottom: 20px;   
+}
+.main-header-h1 {
+  font-size: 4.2rem;
+  line-height: 110%;
+}
+.border-radius {
+  border: 2px solid;
+  border-radius: 25px;
+  width: 300px;
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+}
+.anchor {
+  display:block;
+  height: 64px;
+  margin-top: -64px;
+  visibility: hidden;
+}
+td {
+  font-size: 18px;
+}
+thead {
+  font-size: 28px;
+  color: #212121;
+}
+.slider .slides li img {
+  max-width : 100%;
+}
+body {
+  font-family: 'Ubuntu', Helvetica, Arial, Lucida, sans-serif;
+}
