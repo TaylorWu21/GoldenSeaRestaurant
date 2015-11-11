@@ -1,18 +1,26 @@
 %script{:src => "//maps.google.com/maps/api/js?v=3.13&amp;sensor=false&amp;libraries=geometry", :type => "text/javascript"}
 %script{:src => "//google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.0.14/src/markerclusterer_packed.js", :type => "text/javascript"}
 .slider.valign-wrapper
-  .overlay-text.valign.center
-    %h3.white-text Welcome to Golden Seas
-    %h5.white-text Chinese Cuisine
+  / .overlay-text.valign.center
+  /   %h3.white-text Welcome to Golden Seas
+  /   %h5.white-text Chinese Cuisine
   %ul.slides
     %li
       %img.responsive-img{src:"http://www.attractchina.com/wp-content/uploads/2015/09/orange-chicken.jpg"}
+      .caption.center-align
+        %h3 Try Our Orange Chicken
     %li
       %img.responsive-img{src:"https://s.evbuc.com/https_proxy?url=http%3A%2F%2Fpekingwokoh.com%2Fchinesedish%2F09-kung-pao-chicken.jpg&sig=ADR2i79B2vUSyzSSkGxKgrRfHBppebg72A"}
+      .caption.left-align
+        %h3 Maybe Our Kung Pao Chicken
     %li
-      %img.responsive-img{src:"https://butterloveaffair.files.wordpress.com/2012/11/dsc_2731.jpg"} 
+      %img.responsive-img{src:"https://butterloveaffair.files.wordpress.com/2012/11/dsc_2731.jpg"}
+      .caption.right-align
+        %h3 With Our Chow Mein
     %li
       %img.responsive-img{src:"https://thegreenveggie.files.wordpress.com/2012/03/spring-rolls.jpg"}
+      .caption.right-align
+        %h3 Along with Eggrolls
 %span.anchor#about
 .main-header
   %h5.center-align.white-text Open Hours
