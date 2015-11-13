@@ -1,6 +1,6 @@
 $(document).ready(function(){
   handler = Gmaps.build('Google');
-  handler.buildMap({ provider: { scrollwheel: false }, internal: {id: 'map'}}, function(){
+  handler.buildMap({ provider: { scrollwheel: false, draggable:false }, internal: {id: 'map'}}, function(){
     markers = handler.addMarkers([
       {
         "lat": 40.6118450,
