@@ -9,6 +9,6 @@ $(document).ready(function(){
     ]);
     handler.bounds.extendWith(markers);
     handler.fitMapToBounds();
-    handler.getMap().setZoom(18);
+    handler.getMap().setZoom(17);
   });
 });
