@@ -1,28 +1,5 @@
-== README
+This is a simple website created for Golden Seas Restaurant located at 7659 Redwood Rd, West Jordan, UT 84084
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+note: I should've used sinatra instead of rails since this is a simple page web application.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+website at http://goldensearestaurant.com/ hosted on herkou
