@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.2.2'
 
+gem 'puma'
 # Rails 3.1 asset-pipeline gem to provide underscore.js
 gem 'underscore-rails'
 # Google-Maps-for-Rails-2.0 is an important rewrite to keep the minimum code and features.
