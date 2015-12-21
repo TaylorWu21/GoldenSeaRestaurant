@@ -1,5 +1,5 @@
 This is a simple website created for Golden Seas Restaurant located at 7659 Redwood Rd, West Jordan, UT 84084
 
-note: I should've used sinatra instead of rails since this is a simple page web application.
+note: I should've used sinatra instead of rails.
 
 website at http://goldensearestaurant.com/ hosted on herkou
