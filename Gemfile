@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.2'
+ruby '2.3.0'
 
 gem 'puma'
 # Rails 3.1 asset-pipeline gem to provide underscore.js
